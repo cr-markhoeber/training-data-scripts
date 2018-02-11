@@ -5,13 +5,13 @@ import csv
 import pandas as pd
 
 #This is the path to your Data folder containing all the downloaded csv files
-path = "/Users/markhoeber/Desktop/data"
+path = "/Users/mark.hoeber/Desktop/data"
 
 #This is where you want the manipulated data outputted 
-out_path ='/Users/markhoeber/Desktop/output/'
+out_path ='/Users/mark.hoeber/Desktop/output/'
 
 #This is where you want the results outputted
-report_path="/Users/markhoeber/Desktop/"
+report_path="/Users/mark.hoeber/Desktop/"
 
 #function to parse the email address to get the customer name
 def customer_name(csv_input):
